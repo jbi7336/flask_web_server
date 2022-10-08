@@ -1,0 +1,26 @@
+body {
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border: solid 1px black;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+form {
+    margin: 5px;
+    text-align: center;
+}
+
+#content {
+    text-align: center;
+}
