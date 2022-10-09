@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>RFID Master</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1>Add Task</h1>
+
+    <div class="Addform">
+        <form action="/add" method="POST">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Key Value</th>
+                        <th>X</th>
+                        <th>Y</th>
+                        <th>Floor</th>
+                        <th>Content</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="keyValue" id="keyValue"></td>
+                        <td><input type="text" name="x" id="x"></td>
+                        <td><input type="text" name="y" id="y"></td>
+                        <td><input type="text" name="floor" id="floor"></td>
+                        <td><input type="text" name="content" id="content"></td>
+                        <td><input type="submit" value="Add"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+
+</div>
+{% endblock %}
